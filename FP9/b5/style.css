@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: #fff;
+    border: none;
+    border-radius: 7px;
+
+}
+button {
+    background-color: orange;
+    text-transform: uppercase;
+
+}
+
+div.tren {display: flex;
+}
+
+p {
+    display: none;
+
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: palegoldenrod;
+
+}
+div:hover p {
+    display: block;
+}

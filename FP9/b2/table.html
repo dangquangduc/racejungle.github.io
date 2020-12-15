@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson class 2</title>
+    <style>
+        table {border: solid 2px black; border-collapse: collapse;}
+        tr, th, td {border: solid 1px black; border-collapse: collapse; text-align: center; margin: 5px;}
+    </style>
+</head>
+<body>
+    <!-- phần tử block: bắt đầu một dòng mới -->
+    <!-- phần tử inline: không bắt đầu, nối tiếp và chiếm chiều rộng toàn bộ kích thước riêng của nó -->
+    <!-- Gom nhóm các thẻ với nhau: thẻ div: bọc toàn bộ các thẻ phần tử lại để lấy một thuộc tính giống nhau -->
+    <table>
+        <tr>
+            <th colspan="2" width=200px>Tên</th>
+            <th rowspan="2" width=100px style="text-align: right;">quê</th>
+            <th rowspan="2" width=100px>năm sinh</th>
+            <th rowspan="2" width=100px>trường hợp</th>
+        </tr>
+        <tr>
+            <th>Họ</th>
+            <th>tên</th>
+        </tr>
+
+        <tr>
+            <td>họ 1</td>
+            <td>tên 1</td>
+            <td style="text-align: right; margin-right: 10px;">quê 1.0 <br>
+                quê 1.1 <br>
+                quê 1.2
+            </td>
+            <td>năm 1</td>
+            <td>trh 1</td>
+        </tr>
+        <tr>
+            <td>họ 2</td>
+            <td>tên 2</td>
+            <td>quê 2</td>
+            <td>năm 2</td>
+            <td>trgh 2</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
